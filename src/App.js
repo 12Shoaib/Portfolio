@@ -1,8 +1,9 @@
+import Home from "./Components/Home/Home"
 
 const App = () => {
   return(
     <div>
-      <h1>Welcome to the portFolio</h1>
+      <Home />
     </div>
   )
 }
