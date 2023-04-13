@@ -1,0 +1,67 @@
+.main_Component{
+    background-color: rgba(0, 0, 0, 0.877);
+    height: 32rem;
+    width: 67rem;
+    margin: 0px;
+    padding: 0px;
+    border-radius:15px;
+    color: white;
+}
+.Header{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+.heading{
+    padding: 0px;
+    margin: 0px;
+}
+.Menu_options{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+.menu{
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.menu:hover{
+    background-color: white;
+    color: black;
+    padding: 1px;
+}
+.user_image{
+    position: absolute;
+    top: 10rem;
+    left: 50rem;
+}
+.sub_Heading{
+    padding: 0px;
+    margin: 0px;
+    letter-spacing: 0.02rem;
+}
+.user_Name{
+    color: rgba(138, 7, 237, 0.991);
+}
+.introduction_subHeading{
+    padding: 0px;
+    margin: 0px;
+    margin-top: 6rem;
+    margin-left: 3rem;
+    height: 10rem;
+    display: inline-block;
+
+}
+.text{
+    margin-top:2rem ;
+    display: inline-block;
+}
