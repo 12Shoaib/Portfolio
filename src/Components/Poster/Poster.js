@@ -24,7 +24,12 @@ const Poster = () => {
                 <span className={poster.user_Name}>Mohd Shoaib</span>
                 </h1>
                 <h2 className={poster.sub_Heading}>Front-End Developer</h2>
-                <span className={poster.text}>Welcome to my Portfolio</span>
+                <span className={poster.text}></span><br/>
+                <a 
+                href='/Shoaib_Resume.pdf' 
+                download='File'
+                target="_blank"
+                className={poster.button}>Download Resume</a>
             </div>
         </div>
     )

@@ -20,6 +20,7 @@
 .heading{
     padding: 0px;
     margin: 0px;
+    cursor: pointer;
 }
 .Menu_options{
     padding: 0px;
@@ -64,4 +65,25 @@
 .text{
     margin-top:2rem ;
     display: inline-block;
+}
+.button{
+    margin: 0px;
+    padding: 0px;
+    height: 2rem;
+    width: 9rem;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    background-color: rgba(138, 7, 237, 0.991);
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.01rem;
+}
+.button:hover{
+    cursor: pointer;
+    background-color: rgba(137, 7, 237, 0.795);
+}
+.button:active{
+    background-color: rgb(137, 7, 237);
+
 }
