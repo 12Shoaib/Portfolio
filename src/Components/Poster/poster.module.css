@@ -6,6 +6,8 @@
     padding: 0px;
     border-radius:15px;
     color: white;
+    border: 0.01rem solid rgba(255, 255, 255, 0.285);
+
 }
 .Header{
     padding: 0px;
@@ -37,7 +39,7 @@
 }
 .menu:hover{
     background-color: white;
-    color: black;
+    color: rgba(137, 7, 237, 0.795);
     padding: 3px;
     border-radius: 2px;
 }
