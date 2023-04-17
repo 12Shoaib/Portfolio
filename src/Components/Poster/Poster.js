@@ -8,10 +8,10 @@ const Poster = () => {
             <div className={poster.Header}>
             <h1 className={poster.heading}>Portfolio</h1>
                 <div className={poster.Menu_options}>
-                <a href='#Home'><span className={poster.menu}>Home</span></a>
-                <a href='#About'><span className={poster.menu}>About</span></a>
-                <a href='#Project'><span className={poster.menu}>Project</span></a>
-                <a href='#Skills'><span className={poster.menu}>Skills</span></a>
+                <a className={poster.links} href='#Home'><span className={poster.menu}>Home</span></a>
+                <a className={poster.links} href='#About'><span className={poster.menu}>About</span></a>
+                <a className={poster.links} href='#Project'><span className={poster.menu}>Project</span></a>
+                <a className={poster.links} href='#Skills'><span className={poster.menu}>Skills</span></a>
                 <span className={poster.menu}>Contact</span>
                 </div>
             </div>
