@@ -12,11 +12,8 @@ const Home = () => {
             <Poster />
             </div>
 
-            <div id='About'>
+            <div className={home.container} id='About' >
                 <About />
-            </div>
-
-            <div id='Skills'>
                 <Skills />
             </div>
 

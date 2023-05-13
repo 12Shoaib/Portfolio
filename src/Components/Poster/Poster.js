@@ -1,6 +1,5 @@
 import poster from './poster.module.css'
 import Profile from '../Profile/Profile'
-import {CgCodeSlash} from 'react-icons/cg'
 
 const Poster = () => {
     return (
@@ -11,7 +10,7 @@ const Poster = () => {
                 <a className={poster.links} href='#Home'><span className={poster.menu}>Home</span></a>
                 <a className={poster.links} href='#About'><span className={poster.menu}>About</span></a>
                 <a className={poster.links} href='#Project'><span className={poster.menu}>Project</span></a>
-                <a className={poster.links} href='#Skills'><span className={poster.menu}>Skills</span></a>
+                <a className={poster.links} href='#About'><span className={poster.menu}>Skills</span></a>
                 <span className={poster.menu}>Contact</span>
                 </div>
             </div>
@@ -21,8 +20,6 @@ const Poster = () => {
             </div>
 
             <div className={poster.introduction_subHeading}>
-                <span className={poster.icon}> <CgCodeSlash /></span>
-                <span className={poster.icon1}> <CgCodeSlash /></span>
                 <h1 className={poster.sub_Heading}>Hi, Iam 
                 <span className={poster.user_Name}>Mohd Shoaib</span>
                 </h1>

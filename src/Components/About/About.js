@@ -3,7 +3,7 @@ import about from './about.module.css';
 const About =  () => {
     return(
         <div className={about.main__Component}>   
-        <p className={about.heading}>About me</p>
+        <h1 className={about.heading}>About me</h1>
         <div className={about.content_Container}>
             <p className={about.content}>
                 Hello there , Iam Mohd Shoaib born and brought up in hyderabad.
@@ -15,7 +15,6 @@ const About =  () => {
             </p>
 
         </div>
-
         </div>
     )
 }

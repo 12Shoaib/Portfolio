@@ -1,6 +1,7 @@
 .main_Component{
     padding: 0px;
-    margin: 0px
+    margin: 0px;
+    outline-offset:-10px;
 }
 .user_Image{
     padding: 0px;
@@ -8,4 +9,10 @@
     height: 18rem;
     width: 18rem;
     border-radius: 50%; 
+    object-fit: cover;
+    transition: transform .30s;
+}
+.main_Component:hover .user_Image{
+    transform: scale(1.3);
+    border-radius: 50%;
 }
