@@ -17,12 +17,30 @@
     margin: 0px;
     width: 30rem;
     font-size: 1.1rem;
-    font-weight: 600;
+    font-weight: 400;
     letter-spacing: 0.02rem;
 }
 
 .content_Container {
     display: flex;
+    flex-direction: column;
+    gap: 2rem;
     align-items: center;
     margin-left: 3rem;
+}
+
+.highlighter{
+    color: rgba(138, 7, 237, 0.991);
+    font-weight: 600;
+}
+
+.aboutImage{
+    height: 20rem;
+    width: 20rem;
+    margin-top: 5rem;
+}
+
+.main__Component{
+    display: flex;
+    gap: 14rem;
 }

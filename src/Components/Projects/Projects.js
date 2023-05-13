@@ -9,7 +9,6 @@ const Project = () => {
         <p className={project.heading}>Projects</p>
         <div className={project.main__Container}>
         {data.map((element) => <Card element={element} />)}
-
         </div>
         </div>
     )

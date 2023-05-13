@@ -14,12 +14,13 @@ const Home = () => {
 
             <div className={home.container} id='About' >
                 <About />
+                <div id='Skill'>
                 <Skills />
+                </div>
             </div>
 
             <div id='Project'>
                 <Project />
-
             </div>
 
         </div>

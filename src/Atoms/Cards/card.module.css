@@ -1,29 +1,24 @@
-.image{
-    height: 9rem;
-    width: 9rem;
-    padding: 0px;
-    margin: 0px;
-    border-radius: 500%;
-}
 .main_Container{
-    height: 24rem;
-    width: 17rem;
-    background-color: rgba(255, 255, 255, 0.941);
-    box-shadow: 5px 5px 5px 6px rgba(128, 128, 128, 0.491);
+    height: 26rem;
+    width: 18rem;
+    background-color: rgb(245, 245, 245);
+    box-shadow: 7px 7px 7px 10px rgba(212, 211, 211, 0.491);
     color: black;
     cursor: pointer;
     border-radius: 8px;
+    border-radius: 30% 0%;
     border: 0.01rem solid black;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
 }
 .image{
     padding: 0px;
     margin: 0px;
-    height: 10rem;
-    width: 10rem;
-    border-radius: 50%;
+    height: 12rem;
+    width: 12rem;
+    border-radius: 12px;
 }
 .heading{
     margin-top: 1rem;
@@ -41,5 +36,5 @@
     font-weight: 600;
 }
 .description{
-    width: 14rem;
+    width: 12rem;
 }
