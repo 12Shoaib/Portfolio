@@ -43,4 +43,6 @@
 .main__Component{
     display: flex;
     gap: 14rem;
+    border-bottom:0.01rem solid rgba(255, 255, 255, 0.16) ;
+    padding-bottom: 2rem;
 }

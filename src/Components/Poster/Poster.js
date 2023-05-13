@@ -11,7 +11,7 @@ const Poster = () => {
                 <a className={poster.links} href='#About'><span className={poster.menu}>About</span></a>
                 <a className={poster.links} href='#Project'><span className={poster.menu}>Project</span></a>
                 <a className={poster.links} href='#About'><span className={poster.menu}>Skills</span></a>
-                <span className={poster.menu}>Contact</span>
+                <a className={poster.links} href='#Contact'><span className={poster.menu}>Contact</span></a>
                 </div>
             </div>
 

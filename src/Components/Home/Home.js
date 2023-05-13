@@ -3,6 +3,7 @@ import Poster from '../Poster/Poster'
 import About from '../About/About'
 import Skills from '../Skills/Skills'
 import Project from '../Projects/Projects'
+import Contact from '../Contact/Contact'
 
 const Home = () => {
     return(
@@ -21,6 +22,9 @@ const Home = () => {
 
             <div id='Project'>
                 <Project />
+            </div>
+            <div id='Contact'>
+                <Contact/>
             </div>
 
         </div>

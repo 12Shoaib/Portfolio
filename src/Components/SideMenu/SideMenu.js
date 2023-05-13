@@ -14,7 +14,7 @@ const SideMenu = () => {
             <div className={sidemenu.content_wrapper}><a href='#About'><BsFillPersonVcardFill className={sidemenu.icon} /></a><span className={sidemenu.info}>About</span></div>
             <div className={sidemenu.content_wrapper}><a href='#Skill'><HiCodeBracketSquare className={sidemenu.icon}/></a><span className={sidemenu.info}>Skill</span></div>
             <div className={sidemenu.content_wrapper}><a href='#Project'><BsUiChecks className={sidemenu.icon} /></a><span className={sidemenu.info}>Project</span></div>
-            <div className={sidemenu.content_wrapper}><a href='#Connect'><FaPhoneSquareAlt className={sidemenu.icon}/></a><span className={sidemenu.info}>Comtact</span></div>
+            <div className={sidemenu.content_wrapper}><a href='#Contact'><FaPhoneSquareAlt className={sidemenu.icon}/></a><span className={sidemenu.info}>Comtact</span></div>
             </div>
 
         </div>
